@@ -7,6 +7,7 @@ Pertama harus install module installer
 Karena ini private package, edit composer.json, referal : https://getcomposer.org/doc/05-repositories.md#vcs
 ```
 {
+    ...
     "repositories": [
         {
             "type": "vcs",
@@ -14,8 +15,10 @@ Karena ini private package, edit composer.json, referal : https://getcomposer.or
         }
     ],
     "require": {
+        ...
         "izorwebid/lemongraphql-module": "dev-master"
-    }
+    },
+    ...
 }
 ```
 
