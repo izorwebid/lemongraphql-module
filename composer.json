@@ -25,6 +25,7 @@
     },
     "require": {
         "nwidart/laravel-modules": "^5.1",
-        "nuwave/lighthouse": "^4.3"
+        "nuwave/lighthouse": "^4.3",
+        "joshbrw/laravel-module-installer": "^0.1.4"
     }
 }
