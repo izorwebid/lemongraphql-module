@@ -4,7 +4,7 @@ Pertama harus install module installer
 
 ```composer require joshbrw/laravel-module-installer```
 
-Karena ini private package, edit composer.json, referal : https://getcomposer.org/doc/05-repositories.md#vcs
+Jika ini private package, edit composer.json, referal : https://getcomposer.org/doc/05-repositories.md#vcs
 ```
 {
     ...
@@ -22,6 +22,8 @@ Karena ini private package, edit composer.json, referal : https://getcomposer.or
 }
 ```
 
-Bagian dibawah ini hanya untuk public package
+Lalu ketik
+```composer update```
 
+Bagian dibawah ini hanya untuk public package
 ```composer require izorwebid/lemongraphql-module```
