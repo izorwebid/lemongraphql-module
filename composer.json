@@ -1,0 +1,30 @@
+{
+    "name": "izorwebid/lemongraphql-module",
+    "type": "lemon-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "izorwebid",
+            "email": "izorwebid@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\LemonGraphQL\\Providers\\LemonGraphQLServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LemonGraphQL\\": ""
+        }
+    },
+    "require": {
+        "nwidart/laravel-modules": "^5.1",
+        "nuwave/lighthouse": "^4.3"
+    }
+}

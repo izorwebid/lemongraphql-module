@@ -1,0 +1,14 @@
+{
+    "name": "LemonGraphQL",
+    "alias": "lemongraphql",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\LemonGraphQL\\Providers\\LemonGraphQLServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
